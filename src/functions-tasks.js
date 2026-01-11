@@ -18,7 +18,7 @@
  *
  */
 function getCurrentFunctionName() {
-  throw new Error('Not implemented'); // start task
+  return getCurrentFunctionName.name;
 }
 
 /**
